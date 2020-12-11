@@ -43,7 +43,7 @@ class Clima : AppCompatActivity() {
 
             }
         }, Response.ErrorListener {
-            Log.e("ErrorVolley","ERROR EXTRA;o")
+            Log.e("ErrorVolley","ERROR EN LA CONSULTA")
         })
         queue.add(solicitud)
     }
